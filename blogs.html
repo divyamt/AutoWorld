@@ -1,0 +1,23 @@
+{% extends 'mysite/base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="header">
+  <h2>Blog Name</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" style = "width:500px">
+      
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:100px;"> <img src="{% static 'mysite/images/tesla.jpg'%}" width="300" height="300" alt=""> </div>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

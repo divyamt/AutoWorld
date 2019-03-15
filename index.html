@@ -1,0 +1,22 @@
+{% extends 'mysite/base.html' %}
+
+{% block content %}
+    <div class="container">
+
+            <div class="col-sm-6">
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Blogs</h5>
+                        <p class="card-text">
+                            {{ joker }}
+
+                        </p>
+                        <a href="{% url 'blogs' %}" class="card-link">What is a good car</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock %}
